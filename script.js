@@ -4,7 +4,7 @@ function hello(name){
 function goodbye(name){
    console.log(`Goodbye ${name}`);
 };
-var names=['Yaakov', John',  'Jen', 'Jason', 'Paul', 'Frank', 'Larry', 'Paula', 'Laura', 'Jim'];
+var names=['Yaakov', 'John',  'Jen', 'Jason', 'Paul', 'Frank', 'Larry', 'Paula', 'Laura', 'Jim'];
 for(var i in names){
   var letter1=((names[i]).charAt(0)).toLowerCase();
   if(letter1 == "j"){
